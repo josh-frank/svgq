@@ -7,13 +7,13 @@
   "type": "module",
   "module": "ESNEXT",
   "moduleResolution": "node",
-  "compilerOptions": {
-    "esModuleInterop": true
-  },
   "scripts": {
-    "test": "node cli.ts"
+    "test": "ts-node cli.js"
   },
   "devDependencies": {
     "@types/node": "^16.10.3"
+  },
+  "dependencies": {
+    "typescript": "^4.4.4"
   }
 }
