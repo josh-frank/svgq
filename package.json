@@ -1,0 +1,19 @@
+{
+  "name": "svgq",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "typescript": "^4.4.2",
+  "type": "module",
+  "module": "ESNEXT",
+  "moduleResolution": "node",
+  "compilerOptions": {
+    "esModuleInterop": true
+  },
+  "scripts": {
+    "test": "node cli.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.3"
+  }
+}
