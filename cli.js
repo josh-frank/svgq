@@ -1,6 +1,6 @@
 "use strict";
 
-import { SvgParser } from "./index.ts";
+const { SvgParser } = require( "./index.ts" );
 
 /* eslint no-process-exit: 0 */
 /* eslint global-require: 0 */
@@ -10,7 +10,7 @@ const parseFile = ( error, data ) => {
         console.error( error );
         return;
     }
-    console.log( data );
+    console.log( SvgParser.parse( data ) );
 };
 
 if ( require.main === module ) {
